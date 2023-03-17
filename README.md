@@ -1,7 +1,7 @@
 # Derek_Portfolio
 Professional Portfolio
 
-# [Project 1] (URL)
+# [Price Adjustment Project](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Price%20Adjustment.txt)
 * Job 1 description
 
 
