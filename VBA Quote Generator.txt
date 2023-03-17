@@ -1,0 +1,160 @@
+Sub Twenty_Two_PL_Seven()
+' 8 different price levels 
+
+ Windows("Data 22.xlsx").Activate
+ Worksheets("Report").Activate
+ ActiveSheet.ListObjects("Item").Range.AutoFilter Field:=7, Criteria1 _
+        :=Array("Category 1", "Category 2", "Category 3", "Category 4", "Category 5", "Category 6", "Category 7", "Category 8", _
+        "Category 9", "Category 10", "Category 11", "Category 12"), Operator:=xlFilterValues
+ ActiveSheet.ListObjects("Item").Range.AutoFilter Field:=4, Criteria1 _
+        :=Array("Collection 1", "Collection 2", "Collection 3", "Collection 4", "Collection 5", "Collection 6", "Collection 7", "Collection 8" _
+        , "Collection 9", "Collection 10", "Collection 11", "Collection 12", "Collection 13", "Collection 14", "Collection 15", _
+        "Collection 16", "Collection 17", "Collection 18", "Collection 19", "Collection 20", "Collection 21", "Collection 22", _
+        "Collection 23", "Collection 24", "Collection 25", "Collection 26", "Collection 27", "Collection 28", "Collection 29", _
+        "Collection 30", "Collection 31", "Collection 32", "Collection 33", "Collection 34"), Operator:= _
+        xlFilterValues
+ Worksheets("Prices").Activate
+ ActiveSheet.ListObjects("Sales_Price").Range.AutoFilter Field:=4, Criteria1 _
+        :="="
+ ActiveWorkbook.RefreshAll
+ 
+ Windows("Data 22.xlsx").Activate
+ Worksheets("Report").Activate
+    Range("D14").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Worksheets("Quote").Activate
+    Range("B9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+ Windows("Jet Data 22.xlsx").Activate
+ Worksheets("Report").Activate
+    Range("I13").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Range("C9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Data 22.xlsx").Activate
+    Worksheets("Report").Activate
+    Range("J13").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Range("A9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Data 22.xlsx").Activate
+    Worksheets("Report").Activate
+    Range("G13").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Range("D9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Data 22.xlsx").Activate
+    Worksheets("Report").Activate
+    Range("E13").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Range("E9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Data 22.xlsx").Activate
+    Worksheets("Report").Activate
+    Range("F13").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Range("F9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Windows("Data 22.xlsx").Activate
+    Worksheets("Report").Activate
+    Range("K13").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("Quote Generator 2022.xlsm").Activate
+    Range("H9").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Rows("9:9").Select
+    Selection.Delete Shift:=xlUp
+
+    Range("G9").Select
+    ActiveCell.FormulaR1C1 = _
+        "=INDEX('[Data 22.xlsx]Cube'!C2:C11,MATCH(RC[-5],'[Data 22.xlsx]Cube'!C2,0),4)"
+    Range("G9").Select
+     If IsEmpty(ActiveCell) Then Exit Sub
+    Range(ActiveCell, Cells(Rows.Count, _
+        ActiveCell.Column - 1).End(xlUp).Offset(0, 1)).FillDown
+    Range("I9").Select
+    ActiveCell.FormulaR1C1 = _
+        "=INDEX('[Data 22.xlsx]Report'!C4:C14,MATCH(RC[-7],'[Data 22.xlsx]Report'!C4,0),9)"
+    Range("I9").Select
+     If IsEmpty(ActiveCell) Then Exit Sub
+    Range(ActiveCell, Cells(Rows.Count, _
+        ActiveCell.Column - 1).End(xlUp).Offset(0, 1)).FillDown
+    Range("F4").Select
+    ActiveCell.FormulaR1C1 = "=TODAY()"
+    Range("F4").Select
+    Selection.Copy
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Range("A9").Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Application.CutCopyMode = False
+    
+    Range("A9").Select
+    Cells.Replace What:="Category 1", Replacement:="New Cat 1", LookAt:= _
+        xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Cells.Replace What:="Category 2", Replacement:="New Cat 2", LookAt:= _
+        xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Cells.Replace What:="Category 3", Replacement:="New Cat 3", LookAt:= _
+        xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Cells.Replace What:="Category 4", Replacement:="New Cat 4", LookAt:= _
+        xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Cells.Replace What:="Category 5", Replacement:="New Cat 5", LookAt:= _
+        xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Cells.Replace What:="Category 6", Replacement:="New Cat 6", LookAt:= _
+        xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range("A9").Select
+
+  ActiveWorkbook.Worksheets("Quote").AutoFilter.Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("Quote").AutoFilter.Sort.SortFields.Add Key:=Range( _
+        "D8"), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:= _
+        xlSortNormal
+    With ActiveWorkbook.Worksheets("Quote").AutoFilter.Sort
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+    ActiveWorkbook.Worksheets("Quote").AutoFilter.Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("Quote").AutoFilter.Sort.SortFields.Add Key:=Range( _
+        "A8"), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:= _
+        xlSortNormal
+    With ActiveWorkbook.Worksheets("Quote").AutoFilter.Sort
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+End Sub
