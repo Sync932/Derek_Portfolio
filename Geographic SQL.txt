@@ -1,0 +1,28 @@
+CREATE TABLE item_info (
+order_id int,
+item_number int,
+description char(20),
+product_category char(20)
+)
+
+CREATE TABLE order_info (
+order_no int,
+posting_date date,
+sell_to_state char(5),
+country char(10)
+)
+
+LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Geographic project Item_Info.csv" INTO TABLE item_info
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+
+LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Geographic project Order_Info.csv" INTO TABLE order_info
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+
+SELECT order_no, posting_date, sell_to_state, country, item_number, description  FROM order_info
+JOIN item_info ON order_no = order_id
+order by posting_date
+LIMIT 50000
