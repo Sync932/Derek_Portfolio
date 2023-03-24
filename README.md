@@ -1,9 +1,9 @@
 # Derek_Portfolio
-Professional Portfolio
+Professional Portfolio. All projects are created using actual job related data needed for real applications. Please not that for every single project, all confidential data including product identifiers, sales figures, and customer names have been altered beyond recognition in order to maintain employer confidentiality agreements, but  the trends between the data points themselves remain intact. 
 
 # [Project 1: Geographic Category Review](https://public.tableau.com/app/profile/derek2697/viz/Project_16792940348160/Dashboard1?publish=yes)
 ## [SQL code for Tableau](https://github.com/Sync932/Derek_Portfolio/blob/main/Geographic%20SQL.txt) 
-* This project utilizes SQL and Tableau to look at a 50k line dataset of a real order history spanning two years to find insights on what sold well and what did not. All values have been altered to maintain confidentiality and not portray any data trends from the company this data was taken from. 
+* This project utilizes SQL and Tableau to look at a 50k+ line dataset of a real order history spanning two years to find insights on what sold well and what did not. 
 
 
 # [Project 2: Price Adjustment Automation](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Price%20Adjustment.txt)
@@ -11,10 +11,4 @@ Professional Portfolio
 
 
 # [Project 3: Price Quote Generator](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Quote%20Generator.txt)
-* This project utilizes a combination of VBA and insightsoftware Jet Reports to query data live from a company ERP system, and assemble a full item list of products, item information, and current pricing at the press of a button, formatting and arranging everything to be presentation ready.
-
-# [Project 3] (URL)
-* Job 1 description
-
-# [Project 3] (URL)
-* Job 1 description
+* This project utilizes a combination of VBA and insightsoftware Jet Reports to query data live from a company ERP system, and assemble a full item list of products, item information, and current pricing at the press of a button, formatting and arranging everything to be presentation ready for retail customers.
