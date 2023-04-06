@@ -11,8 +11,8 @@ Professional Portfolio. All projects are created using actual job related data n
 
 # [Project 3: Price Quote Generator](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Quote%20Generator.txt)
 * This project utilizes a combination of VBA and insightsoftware Jet Reports to query data live from a company ERP system, and assemble a full item list of products, item information, and current pricing at the press of a button, formatting and arranging everything to be presentation ready for retail customers.
-**[Generated Report Picture](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Quote%20Generator%20Front%20Page.png)
-**[Report Interface](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Quote%20Generator%20Controls.png)
+[Generated Report](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Quote%20Generator%20Front%20Page.png)
+[Report Interface](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Quote%20Generator%20Controls.png)
 
 
 # [Project 4: Price Adjustment Automation](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Price%20Adjustment.txt)
