@@ -1,6 +1,7 @@
 # Derek_Portfolio
 Hi, I'm Derek. I use data to solve real business problems. Below are a few handpicked projects designed to save time, increase efficiency, and make life easier for decision makers. All projects are created using actual job related data needed for real applications. Please note that all confidential data has been altered beyond recognition in order to maintain employer confidentiality agreements, however the trends between the data points themselves remain intact. 
 
+If you have an issue you aren't sure how to begin untangling, I would love to hear from you via email at derekridings59@gmail.com, or LinkedIn(https://www.linkedin.com/in/derek-ridings-107a5b177/)
 
 # [Project 1: Inventory Analysis](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Inventory%20Analysis.png)
 ![Alt text](https://github.com/Sync932/Derek_Portfolio/commit/fb80c311742cce69024faab809c2981d6ddf237d)
