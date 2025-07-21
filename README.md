@@ -10,22 +10,22 @@ Hi, I'm Derek. I use data to solve real business problems. Below are a few handp
 
 # [Project 2: Geographic Category Review](https://public.tableau.com/app/profile/derek2697/viz/Project_16792940348160/Dashboard1?publish=yes)
 ## [SQL code for Tableau](https://github.com/Sync932/Derek_Portfolio/blob/main/Geographic%20SQL.txt) 
-* Business Context: The company was experiencing an acquisition of another complimentary brand and was looking to get a well rounded sense of what did well on their product lines and where they should focus the physical reallocation of that company's products from their facility into our various warehouses for strategic sales placement.
-* My Challenge: Utilize SQL and Tableau to look at a 50k+ line dataset of a real order history spanning two years to find insights on what sold well and what did not and where.
-* Insights: (evaluate and update) 
-* Outcome: lists by collection were grouped to geographic regions to aid the purchasing team in distribution efforts
+* :briefcase: Business Context: The company was experiencing an acquisition of another complimentary brand and was looking to get a well rounded sense of what did well on their product lines and where they should focus the physical reallocation of that company's products from their facility into our various warehouses for strategic sales placement.
+* :fire: My Challenge: Utilize SQL and Tableau to look at a 50k+ line dataset of a real order history spanning two years to find insights on what sold well and what did not and where.
+* :bulb: Insights: (evaluate and update) 
+* :dollar: Outcome: lists by collection were grouped to geographic regions to aid the purchasing team in distribution efforts
 
 # [Project 3: Price Quote Generator](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Quote%20Generator.txt)
 ### [Generated Report](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Quote%20Generator%20Front%20Page.png)
 ### [Report Interface](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Quote%20Generator%20Controls.png)
-* This project utilizes a combination of VBA and insightsoftware Jet Reports to query data live from a company ERP system, and assemble a full item list of products, item information, and current pricing at the press of a button, formatting and arranging everything to be presentation ready for retail customers.
-* My Challenge
-* Insights
-* Outcome
+* :briefcase: Business Context: The sales team annually and upon request sends updated pricing lists by sku to every customer or distributor, a process which before changes were made took upwards of 40 minutes for an individual to manually complete per account, costing them weeks of dedicated effort in preparation for the new year.
+* :fire: My Challenge: utilize a combination of VBA and insightsoftware Jet Reports to query data live from a company ERP system, and assemble a full item list of products, item information, and current pricing at the press of a button, formatting and arranging everything to be presentation ready for retail customers.
+* :bulb: Insights: This process was filled with natural human error, complicated back and forth, exporting lots of spreadsheets to compare with each other, and was being handled by the sales assistant who was out of commission every time this task came up.
+* :dollar: Outcome: The revised process involved a dashboard of price level buttons which upon being selected, would draft a full sku list with correct pricing in approximately 5 seconds, opening dozens if not hundreds of labor hours both at the beginning of the year and over time as new requests came in after the initial push.
 
 # [Project 4: Price Adjustment Automation](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Price%20Adjustment.txt)
 * This project utilizes VBA to take a submitted list of items that need to have pricing updated and uploaded into a company ERP system, implimenting only the new data as needed into the current price structure of that particular customer. 
-* My Challenge
-* Insights
-* Outcome
+* :fire: My Challenge
+* :bulb: Insights
+* :dollar: Outcome
 
