@@ -3,6 +3,7 @@ Hi, I'm Derek. I use data to solve real business problems. Below are a few handp
 
 
 # [Project 1: Inventory Analysis](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Inventory%20Analysis.png)
+![Alt text](https://github.com/Sync932/Derek_Portfolio/commit/fb80c311742cce69024faab809c2981d6ddf237d)
 * :briefcase: Business Context: This project came during a time for the company where operations knew space was being wasted but was not sure what to do about it or how to find the product that was not turning over.
 * :fire: My Challenge: utilize excel and Power BI to take close to 40k products spread across three different companies and perform an ABC/inventory health analysis for the whole company.
 * :bulb: Insights: (review and update)
