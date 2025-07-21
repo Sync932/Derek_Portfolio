@@ -1,5 +1,5 @@
 # Derek_Portfolio
-Professional Portfolio. All projects are created using actual job related data needed for real applications. Please not that for every single project, all confidential data including product identifiers, sales figures, and customer names have been altered beyond recognition in order to maintain employer confidentiality agreements, but  the trends between the data points themselves remain intact. 
+Hi, I'm Derek. I use data to solve real business problems. Below are a few handpicked projects designed to save time, increase efficiency, and make life easier for decision makers. All projects are created using actual job related data needed for real applications. Please note that all confidential data has been altered beyond recognition in order to maintain employer confidentiality agreements, however the trends between the data points themselves remain intact. 
 
 
 # [Project 1: Inventory Analysis](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Inventory%20Analysis.png)
