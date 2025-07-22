@@ -26,8 +26,8 @@ If you have an issue you aren't sure how to begin untangling, I would love to he
 * :dollar: Outcome: The revised process involved a dashboard of price level buttons which upon being selected, would draft a full sku list with correct pricing in approximately 5 seconds, opening dozens if not hundreds of labor hours both at the beginning of the year and over time as new requests came in after the initial push.
 
 # [Project 4: Price Adjustment Automation](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Price%20Adjustment.txt)
-* This project utilizes VBA to take a submitted list of items that need to have pricing updated and uploaded into a company ERP system, implimenting only the new data as needed into the current price structure of that particular customer. 
-* :fire: My Challenge
-* :bulb: Insights
-* :dollar: Outcome
+* :briefcase: Business Context: Throughout the year certain customers would receive special sales on groups of skus, and the sales assistant was tasked with sku by sku updating the pricing in batches of sometimes hundreds at a time, across a customer portfolio of hundreds of accounts. 
+* :fire: My Challenge: utilize VBA to take a submitted list of items that need to have updated pricing and uploaded into a company ERP system, implimenting only the new data as needed into the current price structure of that particular customer. 
+* :bulb: Insights: This process was an intense burden on the sales team, eating up time and taking away the assistant to the sales VP who was already overloaded with their own work, leaving everyone in suboptimal ability to rise to proactively address new challenges. 
+* :dollar: Outcome: The updated report template allowed these changes to be made within a few seconds of hitting a button, removing human error, and streamlining the process from an original processing time of one to several hours per customer or group of customers.
 
