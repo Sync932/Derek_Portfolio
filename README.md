@@ -11,7 +11,7 @@ If you have an issue you aren't sure how to begin untangling, I would love to he
 
 # [Project 2: Geographic Category Review](https://public.tableau.com/app/profile/derek2697/viz/Project_16792940348160/Dashboard1?publish=yes)
 ## [SQL code for Tableau](https://github.com/Sync932/Derek_Portfolio/blob/main/Geographic%20SQL.txt) 
-* :briefcase: Business Context: The company was experiencing an acquisition of another complimentary brand and was looking to get a well rounded sense of what did well on their product categories and where they should focus the physical reallocation of that company's products from their facility into our various warehouses for strategic sales placement.
+* :briefcase: Business Context: The company was experiencing an acquisition of another complimentary brand and was looking to get a well rounded sense of what did well on their product categories and where they should focus efforts to sell that company's products with strategic sales placement.
 * :fire: My Challenge: Utilize SQL and Tableau to look at a 50k+ line dataset of a real order history spanning two years to find insights on what sold well and what did not and where.
 * :bulb: Insights: (evaluate and update) 
 * :dollar: Outcome: lists by collection were grouped to geographic regions to aid the purchasing team in distribution efforts
