@@ -6,14 +6,14 @@ If you have an issue you aren't sure how to begin untangling, I would love to he
 # [Project 1: Inventory Analysis](https://github.com/Sync932/Derek_Portfolio/blob/main/Images/Inventory%20Analysis.png)
 * :briefcase: Business Context: This project came during a time for the company where operations knew space was being wasted but was not sure what to do about it or how to find the product that was not turning over.
 * :fire: My Challenge: utilize excel and Power BI to take close to 40k products spread across three different companies and perform an ABC/inventory health analysis for the whole company.
-* :bulb: Insights: (review and update)
+* :bulb: Insights: (being reviewed and updated actively)
 * :dollar: Outcome: Lists were drawn from the lowest moving products which were then given to the marketing and E-commerce teams to give them a jumping point for product sales and clearance to motivate increased sales
 
 # [Project 2: Geographic Category Review](https://public.tableau.com/app/profile/derek2697/viz/Project_16792940348160/Dashboard1?publish=yes)
 ## [SQL code for Tableau](https://github.com/Sync932/Derek_Portfolio/blob/main/Geographic%20SQL.txt) 
 * :briefcase: Business Context: The company was experiencing an acquisition of another complimentary brand and was looking to get a well rounded sense of what did well on their product categories and where they should focus efforts to sell that company's products with strategic sales placement.
 * :fire: My Challenge: Utilize SQL and Tableau to look at a 50k+ line dataset of a real order history spanning two years to find insights on what sold well and what did not and where.
-* :bulb: Insights: (evaluate and update) 
+* :bulb: Insights: Gaming goods were easily the largest category, selling primarily in Washington and Kentucky. 
 * :dollar: Outcome: lists by collection were grouped to geographic regions to aid the purchasing team in distribution efforts
 
 # [Project 3: Price Quote Generator](https://github.com/Sync932/Derek_Portfolio/blob/main/VBA%20Quote%20Generator.txt)
